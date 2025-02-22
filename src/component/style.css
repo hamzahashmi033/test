@@ -1,0 +1,32 @@
+.navbarSection{
+    width: 100vw;
+    display: flex;
+    /* border: 1px solid black; */
+    padding: 12px 0px;
+    justify-content: center;
+}
+.navbarSection > div:nth-child(1){
+    width: 30%;
+    display: flex;
+    padding-left: 5%;
+    gap: 30px;
+}
+
+.navbarSection > div:nth-child(1) > div {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.navbarSection > div:nth-child(1) > div > img{
+    height: 70px;
+    width: 90px;
+}
+.navbarSection > div:nth-child(2) {
+    width: 70%;
+    display: flex;
+    /* border: 1px solid black; */
+    justify-content: end;
+    align-items: center;
+    gap: 30px;
+    padding-right: 5%;
+}
